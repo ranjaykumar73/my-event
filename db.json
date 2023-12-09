@@ -1,0 +1,34 @@
+{
+  "datas": [
+    {
+      "fname": "raj",
+      "lname": "Kumar",
+      "email": "raj@",
+      "gender": "male",
+      "number": "1234567885",
+      "spassword": "raj@",
+      "cpassword": "raj@",
+      "id": "NKlQ17T"
+    },
+    {
+      "fname": "Ursula",
+      "lname": "Obrien",
+      "email": "ranjaykumar73.rk@gmail.com",
+      "gender": "Female",
+      "number": "63174158451",
+      "spassword": "ranjay12",
+      "cpassword": "ranjay12",
+      "id": "vSJ166W"
+    },
+    {
+      "fname": "sandip",
+      "lname": "kumar",
+      "email": "sandipkumar0806.sk@gmail.com",
+      "gender": "Male",
+      "number": "8700622774",
+      "spassword": "Sandip12345",
+      "cpassword": "Sandip12345",
+      "id": "GO7y5OM"
+    }
+  ]
+}
