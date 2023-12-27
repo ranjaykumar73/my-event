@@ -5,12 +5,14 @@ import emailjs from '@emailjs/browser';
 import { FaPhone } from "react-icons/fa";
 import { IoIosMail } from "react-icons/io";
 import { FaLinkedin } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaFacebookSquare } from "react-icons/fa";
 
 export const Contact = () => {
 
   const form = useRef();
+
+  
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,10 +20,12 @@ export const Contact = () => {
     emailjs.sendForm('service_csyc6wx', 'template_ycsnzqx', form.current, 'JlWl7xSIX7NNlAKik')
       .then((result) => {
           console.log(result.text);
-          console.log("message send")
+          alert("message send")
+          form.current.reset();
       }, (error) => {
           console.log(error.text);
       });
+
   };
  
   return (
@@ -95,7 +99,7 @@ export const Contact = () => {
                 </div><br></br>
 
                 <div className="flex ">
-                  <FaTwitter className="mt-1" />
+                  <FaXTwitter className="mt-1" />
                   <Link to="https://x.com/RanjayK78517566?t=qwGQOgOH2S8ok9Qn3D6nXg&s=08">Twitter</Link>
                 </div><br></br>
 

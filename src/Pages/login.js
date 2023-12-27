@@ -26,6 +26,7 @@ export const Login = () => {
       storedUserData.spassword === loginData.password
     ) {
       navigate("/");
+      alert("login Successfully")
     } else {
       alert("login failed . Please check your credentials.", loginData);
     }

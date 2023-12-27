@@ -29,6 +29,36 @@
       "spassword": "Sandip12345",
       "cpassword": "Sandip12345",
       "id": "GO7y5OM"
+    },
+    {
+      "fname": "Ranjay",
+      "lname": "kumar",
+      "email": "ranjaykumar73.rk@gmail.com",
+      "gender": "Male",
+      "number": "123456954556",
+      "spassword": "123456789",
+      "cpassword": "123456789",
+      "id": "cW2kb9o"
+    },
+    {
+      "fname": "Ranjay",
+      "lname": "kumar",
+      "email": "ranjaykumar73.rk@gmail.com",
+      "gender": "Male",
+      "number": "9852463851",
+      "spassword": "123456789",
+      "cpassword": "123456789",
+      "id": "GQ2pZuS"
+    },
+    {
+      "fname": "Ranjay",
+      "lname": "kumar",
+      "email": "ranjaykumar73.rk@gmail.com",
+      "gender": "Male",
+      "number": "9852463851",
+      "spassword": "123456789",
+      "cpassword": "123456789",
+      "id": "bV3llAv"
     }
   ]
 }

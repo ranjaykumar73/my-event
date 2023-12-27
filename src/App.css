@@ -1,65 +1,30 @@
-/* body{
-  margin: 0;
-  padding: 0;
-  background-color: #ffff;
-}
-.Nav{
-  background-color: #4F1863;
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: -70px;
-  margin-left: 130px;
-}
-.ranjay{
-background-color: #4F1863;
-height: 130px;
-}
-.logo,img{
-  height: 120px;
-  width: 130px;
-}
- .Signup {
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
 
 
-input {
-  width: 100%;
-  padding: 8px;
-  border-radius: 5px;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-}
-.gender{
-  width: 20px;
-  display: flex;
-}
-#male{
-margin-top: 5px;
-}
-
-input[type="submit"] {
-  background-color: #4caf50;
-  color: white;
-  padding: 10px 15px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
-input[type="submit"]:hover {
-  background-color: #45a049;
+ @keyframes slidein {
+  0% {
+    transform: translateX(-140px);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(1260px);
+    opacity: 1;
+  }
 } 
 
-.login{
-  max-width: 400px;
-  margin: auto;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-} */
+@keyframes running {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+}
+.animate-slidein1 {
+  animation: slidein 13s ease-in 1s infinite, running 3s ease-in 1s infinite;
+}
+
+.animate-slidein {
+  animation: slidein 15s ease-in 1s infinite, running 3s ease-in 1s infinite;
+}
